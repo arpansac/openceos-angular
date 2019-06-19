@@ -1,0 +1,10 @@
+:host{
+  #app-footer{
+    width: 100%;
+    mat-toolbar{
+      height: 40px;
+      position: fixed;
+      bottom: 0;
+    }
+  }
+}

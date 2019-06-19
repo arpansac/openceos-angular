@@ -1,0 +1,17 @@
+#main-nav{
+  mat-toolbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    .logo-text{
+      font-weight: 300;
+      &>span{
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
