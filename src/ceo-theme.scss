@@ -12,4 +12,7 @@ $ceo-warn:    mat-palette($mat-red);
 
 $ceo-theme: mat-light-theme($ceo-primary, $ceo-accent, $ceo-warn);
 
+$break-small: 320px;
+$break-large: 1200px;
+
 @include angular-material-theme($ceo-theme);

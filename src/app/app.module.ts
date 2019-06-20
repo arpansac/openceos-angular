@@ -10,6 +10,8 @@ import { AppHomeComponent } from './components/app-home/app-home.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { MainNavComponent } from './components/shared/main-nav/main-nav.component';
 import { AngularMaterialModule } from './shared-modules/angular-material.module';
+import { HeaderComponent } from './components/app-home/header/header.component';
+import { FasModule } from './shared-modules/fas.module';
 
 @NgModule({
   declarations: [
@@ -17,9 +19,11 @@ import { AngularMaterialModule } from './shared-modules/angular-material.module'
     AppHomeComponent,
     FooterComponent,
     MainNavComponent,
+    HeaderComponent,
   ],
   imports: [
     AngularMaterialModule,
+    FasModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
